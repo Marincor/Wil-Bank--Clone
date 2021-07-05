@@ -1,0 +1,127 @@
+/* Desktop */
+
+@media screen and (min-width:1024px) {
+
+    .apresentacao {
+
+        background-color: var(--amarelo);
+        width: 100vw;
+        height:100vh;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .apresentacao__descricao {
+        position: relative;
+        margin-top: 6rem;
+        width: 14rem;
+        margin-left: 7rem;
+        font-family: var(--fonte-texto);
+        font-size: 2rem;
+        color: rgb(78, 76, 76);
+        text-align: right;
+        word-spacing: -1rem;
+        line-height: 3rem;
+     
+
+    }
+
+    .apresentacao__titulo {
+
+        font-family: var(--fonte-texto);
+        font-size: 4rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        width: 21rem;
+        text-align: right;
+        margin-right: 3rem;
+        word-spacing: -1.5rem;
+        margin-bottom: 3rem;
+
+    }
+
+
+
+    .apresentacao__botao {
+
+        background-color: black;
+        color: white;
+        padding: 0.8rem 6rem 0.8rem 6rem;
+        margin-top: 5rem;
+        border-radius:2rem;
+        font-family: var(--fonte-texto);
+        word-spacing: -0.5rem;
+        margin-left: 5rem;
+        
+
+    }
+
+    .apresentacao__video {
+
+        margin-top: 5rem;
+        background-color: white;
+        padding: 1rem 0.2rem 0.2rem 0.2rem;
+        border-radius: 2%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .bars {
+
+        display: flex;
+        margin-left: 0.1rem;
+        
+    }
+
+    .ball1, .ball2, .ball3 {
+
+        background-color: blue;
+        padding:0.2rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0.2rem;
+        border-radius: 100%;
+    }
+
+    .ball1 {
+
+        background-color: rgb(212, 67, 67);
+    }
+
+    .ball2 {
+
+        background-color:orange;
+    }
+
+    .ball3 {
+
+        background-color: rgb(31, 117, 31);
+    }
+
+
+    .apresentacao__ajuda {
+        font-family: var(--fonte-texto);
+        font-weight: bold;
+        background-color: var(--amarelo);
+        color: black;
+        width: 5rem;
+        position:fixed;
+        top: 90%;
+        right: 5%;
+        text-align: center;
+        padding:1rem;
+        border-radius: 2rem;
+
+    }
+
+
+
+
+
+
+
+
+
+
+}
