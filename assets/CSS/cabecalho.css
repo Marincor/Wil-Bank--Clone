@@ -1,0 +1,65 @@
+
+/* Desktop */
+
+@media screen and (min-width:1024px) {
+
+    .header {
+
+
+        background-color: var(--amarelo);
+        font-family: var(--fonte-titulo);
+        position: fixed;
+        width: 100%;
+        height: 10vh;
+
+
+    }
+
+    .header a {
+
+        text-decoration: none;
+    }
+
+    .header__banner {
+
+        display: flex;
+        margin-left: 2rem;
+
+    }
+    .header__banner-texto{
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        
+
+    }
+
+    .header__banner-titulo {
+
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: black;
+    }
+
+    .header__banner-paragrafo{
+
+        font-size: 0.6rem;
+        color: black;
+        margin-left: 2.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .header__banner-logo {
+
+
+        background-color: white;
+        width: 2.5vw;
+        height: 5vh;
+        border-radius: 100%;
+        margin-top: 0.3rem;
+        margin-left: 0.2rem;
+    }
+    
+    
+}
