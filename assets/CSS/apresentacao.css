@@ -12,6 +12,12 @@
 
     }
 
+    .apresentacao__itens a {
+        text-decoration: none;
+        color: white;
+
+    }
+
     .apresentacao__descricao {
         position: relative;
         margin-top: 6rem;
@@ -42,6 +48,7 @@
     }
 
 
+ 
 
     .apresentacao__botao {
 
@@ -53,6 +60,7 @@
         font-family: var(--fonte-texto);
         word-spacing: -0.5rem;
         margin-left: 5rem;
+        
         
 
     }
