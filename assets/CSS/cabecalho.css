@@ -1,7 +1,7 @@
 
 /* Desktop */
 
-@media screen and (min-width:1024px) {
+
 
     .header {
 
@@ -9,8 +9,9 @@
         background-color: var(--amarelo);
         font-family: var(--fonte-titulo);
         position: fixed;
-        width: 100%;
+        width: 100vw;
         height: 10vh;
+        z-index: 1;
 
 
     }
@@ -62,4 +63,3 @@
     }
     
     
-}

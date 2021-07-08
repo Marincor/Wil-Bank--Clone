@@ -1,6 +1,6 @@
 /* Desktop */
 
-@media screen and (min-width:1024px) {
+
 
     .apresentacao {
 
@@ -9,7 +9,6 @@
         height:100vh;
         display: flex;
         justify-content: center;
-
     }
 
     .apresentacao__itens a {
@@ -132,4 +131,4 @@
 
 
 
-}
+

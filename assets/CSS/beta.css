@@ -1,0 +1,115 @@
+.beneficios-e-beta {
+
+    background-color: rgb(247,247,247);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.beta {
+    margin:  15rem auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+     font-family: var (--fonte-texto);
+  
+}
+
+.beta__itens {
+
+    margin-left: 3rem;
+}
+
+.beta__paragrafo {
+
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.beta__titulo {
+
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 15rem
+
+}
+
+.beta__descricao {
+    margin-top: 1rem;
+    font-size: 1rem;
+    width: 18rem;
+    margin-right: 5rem;
+    
+}
+
+.beta__descricao strong {
+
+    font-weight: bolder;
+
+}
+
+.beta__image-divulgacao {
+   
+    width: 80%;
+
+}
+
+
+.beta__itens3 {
+
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.beta__itens-topicos {
+
+    background-color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 10rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-texto);
+    word-spacing: -0.3rem;
+    line-height: 1rem;
+    padding-right: 1rem;
+}
+
+.beta__itens-topico-image {
+
+    width: 50%;
+    height: 50%;
+    margin-bottom: 1rem;
+}
+
+.beta__itens-topico-texto {
+
+    font-size: 0.8rem;
+}
+
+.beta__itens-topico-texto strong {
+
+    font-weight: bolder;
+
+}
+
+
+.beta__itens-botao {
+    margin-top: 20rem;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+
+}

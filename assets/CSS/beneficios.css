@@ -1,18 +1,22 @@
-@media screen and (min-width:1024px) {
 
-        .beneficios {
-            height: 200vh;
+
+       
+       
+       .beneficios {
+            height: 300vh;
             background-image: url("../IMG/happy_woman_cellphone.jpg");
             background-size: cover;
             background-position: center;
             display: flex;
-            justify-content: center;
             align-items: center;
+            width: 100vw;
+            
         }
 
         .beneficios__container {
             margin-top: 55rem;
             margin-bottom: 20rem;
+            margin-left: 15%;
             color: var(--amarelo);
             font-size: var(--fonte-texto);
             width: 80vw;
@@ -38,7 +42,7 @@
 
         .beneficios__itens {
 
-            width: 100%;
+            width: 50rem;
             background-color: black;
             display: flex;
             flex-direction: column;
@@ -78,4 +82,3 @@
 
         
     
-}

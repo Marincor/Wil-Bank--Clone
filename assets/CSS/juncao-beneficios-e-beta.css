@@ -1,0 +1,54 @@
+/* Desktop */
+
+.juncao-bb {
+    width: 90vw;
+    height: 5rem;
+    background-color: var(--amarelo);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-45%);
+    padding-right: 1rem;
+    border-radius: 1rem;
+   
+
+   
+}
+
+.mais {
+
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+
+
+.juncao-bb__itens {
+
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-texto);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+
+
+}
+
+
+
+.juncao-bb__titulo {
+
+    font-weight: bold;
+    font-size: 2rem;
+    width: 14rem;
+    text-align: center;
+    word-spacing: -0.5rem;
+}
+
+.juncao-bb__paragrafos {
+  
+    font-size: 1rem;
+}
