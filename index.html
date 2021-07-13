@@ -15,6 +15,9 @@
 			<link rel="stylesheet" href="./assets/CSS/beneficios.css">
 			<link rel="stylesheet" href="./assets/CSS/juncao-beneficios-e-beta.css">
 			<link rel="stylesheet" href="./assets/CSS/beta.css">
+			<link rel="stylesheet" href="./assets/CSS/opiniao.css">
+			<link rel="stylesheet" href="./assets/CSS/slider.css">
+			<link rel="stylesheet" href="./assets/CSS/footer.css">
 	</head>
 	<body>
     <header class="header">
@@ -143,21 +146,29 @@
 		<section class="opiniao">
 			<div class="opiniao__itens">
 				<h2 class="opiniao__titulo">e aí, o que você achou?</h2>
-				<p class="opiniao__paragrafo">como foi sua experiência com o cadastro no app? Tô ansioso para aprender e crescer com você!</p>
-				<span class="opiniao__botao">Conta pra mim</span>
+				<p class="opiniao__paragrafo">como foi sua experiência com o cadastro no app? 
+				<strong>Tô ansioso para aprender e crescer com você!</strong>	</p>
+				 <a href="/" class="opiniao__link"><span class="opiniao__botao"> Conta pra mim</span>
+				 </div></a>
+		</section>
+
+
+		<section class="slider" data-slider >  
+			
+			<button class="botao__esquerdo" data-botao__esquerdo>🡸</button>
+			<div class="slider__conteudo" data-slider__conteudo>
+			
+				
 			</div>
+			<button class="botao__direito" data-botao__direito> 🡺 </button>
+			
 		</section>
 
-
-		<section class="slider">
-
-		</section>
-
-
+		<script type="module" src="./assets/Components/Slider/index.js"></script>
 	</body>
 	<footer class="footer_container">
 			<div class="footer__itens">
-				<a href="index.html">
+				<a href="index.html" class="footer__link">
 					<div class="footer__banner">
 							 <div class="footer__banner-texto">
 									 <h1 class="footer__banner-titulo">will</h1>
@@ -166,20 +177,26 @@
 			 
 								<div class="footer__banner-logo"></div>
 					 </div>
-			 </a> 
+			 	</a> 
 			</div>
 
 			<div class="footer__itens">
-					<div class="footer__media"><img src="" alt="" class="icons"><img src="" alt="" class="icons"><img src="" alt="" class="icons"><img src="" alt="" class="icons">
+					<div class="footer__media">
+
+						<a href="/"><img src="./assets/IMG/facebook.svg" alt="facebook" class="icons"></a>
+						<a href="/"><img src="./assets/IMG/insta.svg" alt="instagram" class="icons"></a>
+						<a href="/"><img src="./assets/IMG/yout.svg" alt="youtube" class="icons"></a>
+						<a href="/"><img src="./assets/IMG/linkedin.svg" alt="linkedin" class="icons"></a>
+						
 					</div>
 
-					<ul>
-						<li><a href="/">Perguntas frequentes</a></li>
-						<li><a href="/">Termos de Uso</a></li>
-						<li><a href="/">Política de Privacidade</a></li>
-						<li><a href="/">Política de Segurança</a></li>
-						<li><a href="/">Ouvidoria</a></li>
-						<li><a href="/">Relatórios financeiros</a></li>
+					<ul class="footer__topicos">
+						<li class="footer__topicos-itens"><a href="/">Perguntas frequentes</a></li>
+						<li class="footer__topicos-itens"><a href="/">Termos de Uso</a></li>
+						<li class="footer__topicos-itens"><a href="/">Política de Privacidade</a></li>
+						<li class="footer__topicos-itens"><a href="/">Política de Segurança</a></li>
+						<li class="footer__topicos-itens"><a href="/">Ouvidoria</a></li>
+						<li class="footer__topicos-itens"><a href="/">Relatórios financeiros</a></li>
 					</ul>
 
 			</div>
@@ -189,7 +206,7 @@
 				<h2 class="footer__novidades-titulo">Quer saber mais novidades?</h2>
 				<p class="footer__novidades-paragrafo">Inscreva-se na nossa News</p>
 				<form action="" class="footer__formulario"><input type="email" class="footer__formulario-email" placeholder="E-mail" required>
-					<input type="submit" class="footer__formulario-botao" value="✅">
+					<input type="submit" class="footer__formulario-botao" value="✔">
 				</form>
 
 			</div>

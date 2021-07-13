@@ -1,6 +1,10 @@
 
 
-       
+       .beneficios-e-beta {
+
+        width: 100vw;
+        max-width: 80vw;
+       }
        
        .beneficios {
             height: 300vh;
@@ -80,5 +84,5 @@
         
         }
 
-        
-    
+
+     

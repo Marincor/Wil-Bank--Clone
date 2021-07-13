@@ -1,0 +1,145 @@
+.footer_container {
+  display: flex;
+  background-color: rgb(247, 247, 247);
+  font-family: var(--fonte-titulo);
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  justify-content: space-around;
+}
+
+/* primeira coluna */
+.footer__itens {
+  margin-top: 4rem;
+  margin-right: 4rem;
+}
+
+.footer__link {
+  text-decoration: none;
+}
+
+.footer__banner {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.footer__banner {
+  display: flex;
+}
+
+.footer__banner-texto {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.footer__banner-titulo {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: black;
+}
+
+.footer__banner-paragrafo {
+  font-size: 0.6rem;
+  color: black;
+  margin-left: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer__banner-logo {
+  background-color: var(--amarelo);
+  width: 2.5vw;
+  height: 5vh;
+  border-radius: 100%;
+  margin-top: 0.3rem;
+  margin-left: 0.2rem;
+  margin-right: 3rem;
+}
+
+/* segunda coluna */
+
+.icons {
+  width: 1.2rem;
+  margin: 0rem 0.5rem 0.5rem 0rem;
+}
+
+.footer__topicos a {
+
+    color: gray;
+}
+
+.footer__topicos-itens {
+
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    width: 10rem;
+    font-size: 1rem;
+}
+
+
+/* Terceira Coluna */
+
+
+.footer__novidades-titulo {
+
+    font-size:1rem ;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.footer__novidades-paragrafo {
+
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: gray;
+}
+
+.footer__formulario {
+
+    display: flex;
+}
+.footer__formulario-email {
+
+    padding: 0.5rem;
+    border:black 0.1rem double;
+    border-radius: 0.5rem;
+}
+
+
+
+
+.footer__formulario-botao {
+
+    background-color: rgb(39,194,128) ;
+    color: white;
+    border-radius: 0.5rem;
+    padding:0.5rem 0.8rem;
+    cursor: pointer;
+}
+
+
+/* quarta coluna */
+
+.footer__titulo-trabalho {
+
+    font-size: 1rem;
+    font-weight: bolder;
+    width: 18rem;
+    margin-bottom: 1rem;
+}
+
+.footer__paragrafo-trabalho {
+
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.footer__link-trabalho {
+
+    font-size: 1rem;
+    color: gray;
+}
+
+
+

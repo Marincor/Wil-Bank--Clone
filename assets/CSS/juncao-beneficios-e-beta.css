@@ -4,7 +4,7 @@
     width: 90vw;
     height: 5rem;
     background-color: var(--amarelo);
-    margin: 0 auto;
+    margin: 0 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,3 +52,5 @@
   
     font-size: 1rem;
 }
+
+
