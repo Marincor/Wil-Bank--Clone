@@ -46,3 +46,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+@media screen and (max-width: 1023px) {
+
+:root {
+
+	display: none;
+}
+
+
+	
+}
